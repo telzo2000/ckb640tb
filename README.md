@@ -41,7 +41,7 @@ ckb640tb use RP2040-Zero,run qmk_firmware.
 |14|Bearing<br>ベアリング|3|外径5mm、内径2mm、幅2.5mm|[amazon](https://www.amazon.co.jp/dp/B0CV7XLDYP?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)||
 |15|TRRS Jack|2|3.5mm|[遊舎工房](https://shop.yushakobo.jp/products/a0800tr-01-1?_pos=1&_sid=9ea2ad868&_ss=r)<br>[Talp keyboard](https://shop.talpkeyboard.com/products/35mm-4-trrs-vonnector-2pcs)|１個55円程度|
 |16|コンスルー|3|2mm　20ピン|[遊舎工房](https://shop.yushakobo.jp/products/31?variant=40815837610145)|385円|
-
+|17|L字形コンスルー|1|7ピン XA-3-7|[Talp keyboards](https://shop.talpkeyboard.com/products/mac8-xa-3-2-7p-1)|160円|
 
 
 <br>
