@@ -16,6 +16,11 @@ ckb640tb use RP2040-Zero,run qmk_firmware.
 ![](img/img00003.png)
 
 
+# Build guide
+
+https://github.com/telzo2000/ckb640tb/blob/main/buildguide_for_ckb640tb.md
+
+
 # BOM
 
 
