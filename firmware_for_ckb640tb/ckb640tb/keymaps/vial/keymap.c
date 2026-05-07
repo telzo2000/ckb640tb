@@ -55,9 +55,20 @@ report_mouse_t pointing_device_task_user(report_mouse_t mouse_report) {
         // 本来のマウスカーソルの動きは止める
         mouse_report.x = 0;
         mouse_report.y = 0;
+    };
+    if (IS_LAYER_ON(2)) {
+        // ボールの動き(x, y)をスクロール(h, v)に変換
+        // SCROLL_DIVIDER で割ることで、速すぎて制御不能になるのを防ぎます
+        mouse_report.v = mouse_report.x*2/3 / SCROLL_DIVIDER;
+        mouse_report.h = mouse_report.y*2/3 / SCROLL_DIVIDER;
+        
+        // 本来のマウスカーソルの動きは止める
+        mouse_report.x = 0;
+        mouse_report.y = 0;
     }
     return mouse_report;
 }
+
 
 enum custom_keycodes {
     CPI_SW = SAFE_RANGE, // または QK_USER_0
