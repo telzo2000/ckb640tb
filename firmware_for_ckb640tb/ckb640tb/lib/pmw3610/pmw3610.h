@@ -128,7 +128,7 @@
  * CPI
  */
 #ifndef PMW3610_CPI
-#    define PMW3610_CPI 800U
+#    define PMW3610_CPI 400U
 #endif
 
 /*

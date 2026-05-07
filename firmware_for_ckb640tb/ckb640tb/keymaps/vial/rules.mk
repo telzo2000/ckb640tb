@@ -7,3 +7,5 @@ POINTING_DEVICE_DRIVER = custom
 SRC += lib/pmw3610/pmw3610.c
 SRC += lib/pmw3610/custom_pointing_device.c
 
+POINTING_DEVICE_ENABLE = yes
+MOUSEKEY_ENABLE = yes
